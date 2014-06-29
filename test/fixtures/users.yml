@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+admin:
+  name: admin
+  email: admin@garrio.org
+  admin: true
+  password_digest: randomstring
+  language: english
+  remember_me: false
+  
+user1:
+  name: UserOne
+  email: user_one@test.com
+  admin: false
+  password_digest: somerandomstring
+  language: english
+  remember_me: false
+
+user2:
+  name: UserTwo
+  email: user_two@yaml.com
+  admin: false
+  password_digest: somerandomstring
+  language: english
+  remember_me: false

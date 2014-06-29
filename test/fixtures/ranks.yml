@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+rank1:
+  score: 1
+  user: user1
+  language: english
+
+rank2:
+  score: 2
+  user: user2
+  language: japanese

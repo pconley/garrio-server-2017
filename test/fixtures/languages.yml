@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+
+danish:
+  name: Danish
+  code: da
+  flag: dn
+  
+english:
+  name: English
+  code: en
+  flag: us
+
+spanish:
+  name: Español
+  code: es
+  flag: es
+
+italian:
+  name: Italian
+  code: it
+  flag: it
+
+japanese:
+  name: Japanese
+  code: ja
+  flag: jp

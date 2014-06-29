@@ -1,0 +1,10 @@
+== RESTART
+
+I often stop this project for weeks or months, so this file is my helper
+in restarting the development.
+
+1. bundle update
+	this typically causes me to need to build a couple of libraries to
+	update the gems
+	
+2. rake test?

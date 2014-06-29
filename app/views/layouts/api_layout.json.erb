@@ -1,0 +1,7 @@
+{
+	<% @msg = "" if @msg.nil? %>
+	<% @success = true if @success.nil? %>
+	"success": <%= @success %>,
+	"messages": ["<%= @msg %>"],
+	"result": <%= yield %>
+}

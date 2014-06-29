@@ -1,0 +1,31 @@
+<h1>Listing ranks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Score</th>
+      <th>User</th>
+      <th>Language</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ranks.each do |rank| %>
+      <tr>
+        <td><%= rank.score %></td>
+        <td><%= rank.user.name %></td>
+        <td><%= rank.language.name %></td>
+        <td><%= link_to 'Show', rank %></td>
+        <td><%= link_to 'Edit', edit_rank_path(rank) %></td>
+        <td><%= link_to 'Destroy', rank, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Rank', new_rank_path %>
